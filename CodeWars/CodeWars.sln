@@ -3,11 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.4.33213.308
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeWars.ConsoleApp", "CodeWars.ConsoleApp\CodeWars.ConsoleApp.csproj", "{0FAD4584-E025-408A-94DE-FB3B44E63DDD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CodeWars.Katas", "CodeWars.Katas\CodeWars.Katas.csproj", "{A73490B0-D501-4DCA-BDFA-73A139581180}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeWars.Katas", "CodeWars.Katas\CodeWars.Katas.csproj", "{A73490B0-D501-4DCA-BDFA-73A139581180}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeWars.Tests", "CodeWars.Tests\CodeWars.Tests.csproj", "{B32E9D84-C845-4AB3-85F5-7280E9707358}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CodeWars.Tests", "CodeWars.Tests\CodeWars.Tests.csproj", "{B32E9D84-C845-4AB3-85F5-7280E9707358}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,10 +13,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{0FAD4584-E025-408A-94DE-FB3B44E63DDD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{0FAD4584-E025-408A-94DE-FB3B44E63DDD}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{0FAD4584-E025-408A-94DE-FB3B44E63DDD}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{0FAD4584-E025-408A-94DE-FB3B44E63DDD}.Release|Any CPU.Build.0 = Release|Any CPU
 		{A73490B0-D501-4DCA-BDFA-73A139581180}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{A73490B0-D501-4DCA-BDFA-73A139581180}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A73490B0-D501-4DCA-BDFA-73A139581180}.Release|Any CPU.ActiveCfg = Release|Any CPU
