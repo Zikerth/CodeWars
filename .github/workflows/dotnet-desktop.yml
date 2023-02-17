@@ -16,6 +16,6 @@ jobs:
     - name: Install dependencies
       run: dotnet restore CodeWars/CodeWars.sln
     - name: Build
-      run: dotnet build CodeWars/CodeWars.sln --configuration Release --no-restore 
+      run: dotnet build CodeWars/CodeWars.Tests/CodeWars.Tests.csproj --configuration Release --no-restore 
     - name: Test
-      run: dotnet test CodeWars/CodeWars.sln --no-restore --verbosity normal
+      run: dotnet test CodeWars/CodeWars.Tests/CodeWars.Tests.csproj --no-restore --verbosity normal
